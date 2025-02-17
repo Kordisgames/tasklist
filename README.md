@@ -1,6 +1,9 @@
 ## Installation:
 php artisan migrate
 
+npm install
+npm run build
+
 - Если не работает Sanctum:
 php artisan vendor:publish --provider="Laravel\\Sanctum\\SanctumServiceProvider"
 или
