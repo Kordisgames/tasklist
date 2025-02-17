@@ -1,19 +1,36 @@
-/.phpunit.cache
-/node_modules
-/public/build
-/public/hot
+# Laravel
+/vendor/
+/node_modules/
 /public/storage
 /storage/*.key
-/vendor
-.env
-.env.backup
-.env.production
-.phpunit.result.cache
-Homestead.json
-Homestead.yaml
-auth.json
-npm-debug.log
-yarn-error.log
-/.fleet
 /.idea
 /.vscode
+/.env
+/.env.*
+/phpunit.xml
+/phpunit.xml.dist
+/.phpunit.result.cache
+
+# Composer
+composer.lock
+
+# NPM
+npm-debug.log
+yarn-error.log
+
+# Laravel IDE helper
+/_ide_helper.php
+/_ide_helper_models.php
+
+# Laravel Telescope
+/telescope
+
+# Temporary files
+*.log
+*.csv
+*.dat
+*.tar
+*.gz
+*.zip
+*.tar.gz
+*.7z
